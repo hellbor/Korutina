@@ -16,7 +16,6 @@ fun main() = runBlocking {
         println("Работаю в main")
         delay(100L)
     }
-    job.join()
 
     //2
     val deferredResult = async {
