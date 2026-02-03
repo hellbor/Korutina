@@ -21,7 +21,7 @@ fun main() = runBlocking {
     val deferredResult = async {
         println("Начало вычислений")
         delay(1000L)
-        return@async 10
+        10
     }
     println("Корутина запущена")
 
